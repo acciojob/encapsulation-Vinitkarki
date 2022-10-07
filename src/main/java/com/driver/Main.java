@@ -5,11 +5,11 @@ public class Main {
     RWOnly obj=new RWOnly();
 
     //Before getter and setter
-    //obj.name=12;                     //Error-- The field RWOnly.name is not visible
+    //obj.name="Vinit";                     //Error-- The field RWOnly.name is not visible
     //System.out.println(obj.name);    //Error-- The field RWOnly.name is not visible
 
     //after getter and setter
-    obj.setName(15);
+    obj.setName("Vinit");
     System.out.println(obj.getName());
 
   }
